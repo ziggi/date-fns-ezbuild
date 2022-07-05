@@ -21,7 +21,6 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "test": "karma start config/karma.js",
     "build": "tsc --build"
   },
   "husky": {
