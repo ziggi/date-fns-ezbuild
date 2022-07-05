@@ -19,7 +19,11 @@
   "engines": {
     "node": ">=0.11"
   },
-  "main": "dist/index.js",
+  "typings": "./typings.d.ts",
+  "main": "./dist/",
+  "exports": {
+    "./locale": "./dist/locale"
+  },
   "scripts": {
     "build": "tsc --build"
   },
