@@ -20,8 +20,9 @@
     "node": ">=0.11"
   },
   "typings": "./typings.d.ts",
-  "main": "./dist/",
+  "main": "./dist/index.js",
   "exports": {
+    ".": "./dist",
     "./locale": "./dist/locale"
   },
   "scripts": {
